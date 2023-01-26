@@ -1,4 +1,7 @@
-export default function getResponseFromAPI() {
-  const promise = new Promise(() => {});
-  return promise;
+function getResponseFromAPI() {
+  /* eslint-disable */
+  return new Promise((resolve, reject) => {
+    resolve();
+  });
 }
+export default getResponseFromAPI;
